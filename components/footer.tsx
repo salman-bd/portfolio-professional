@@ -83,7 +83,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center animate-fade-in">
-          <div className="flex md:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Ariful Islam Shaon. All rights reserved.
             </p>
