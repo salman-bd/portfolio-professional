@@ -10,8 +10,8 @@ export default function ContactPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="section-heading">Get In Touch</h1>
               <p className="mt-6 text-xl text-muted-foreground">
@@ -22,8 +22,8 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Info Section */}
-        <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-muted/30 py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
               <Card className="card-hover">
                 <CardContent className="flex flex-col items-center p-6 text-center">
@@ -57,8 +57,8 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Form Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mx-auto max-w-3xl">
               <h2 className="mb-8 text-center text-3xl font-bold">Send Me a Message</h2>
               <ContactForm />

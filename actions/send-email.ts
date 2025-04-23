@@ -40,7 +40,7 @@ export async function sendEmail(formData: FormData) {
 
     // Send notification email to admin
     await resend.emails.send({
-      from: "Shon <admin-notification@cscsylhet.com>",
+      from: "Shaon <admin-notification@cscsylhet.com>",
       to: "arifulislamshaon028@gmail.com",
       subject: `New Contact Form Submission: ${subject}`,
       react: AdminNotificationEmail({ name, email, subject, message }),

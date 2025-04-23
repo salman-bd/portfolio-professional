@@ -61,16 +61,16 @@ export function ContactForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 animate-fade-in">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <FormField
             control={form.control}
             name="name"
             render={({ field }) => (
-              <FormItem>
+              <FormItem className="animate-slide-up animate-delay-100">
                 <FormLabel>Name</FormLabel>
                 <FormControl>
-                  <Input placeholder="Your name" {...field} />
+                  <Input placeholder="Your name" {...field} className="transition-all focus:border-primary" />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -80,10 +80,15 @@ export function ContactForm() {
             control={form.control}
             name="email"
             render={({ field }) => (
-              <FormItem>
+              <FormItem className="animate-slide-up animate-delay-200">
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input placeholder="Your email" type="email" {...field} />
+                  <Input
+                    placeholder="Your email"
+                    type="email"
+                    {...field}
+                    className="transition-all focus:border-primary"
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -94,10 +99,14 @@ export function ContactForm() {
           control={form.control}
           name="subject"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="animate-slide-up animate-delay-300">
               <FormLabel>Subject</FormLabel>
               <FormControl>
-                <Input placeholder="Subject of your message" {...field} />
+                <Input
+                  placeholder="Subject of your message"
+                  {...field}
+                  className="transition-all focus:border-primary"
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -107,16 +116,20 @@ export function ContactForm() {
           control={form.control}
           name="message"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="animate-slide-up animate-delay-400">
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Your message" className="min-h-[150px] resize-none" {...field} />
+                <Textarea
+                  placeholder="Your message"
+                  className="min-h-[150px] resize-none transition-all focus:border-primary"
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full" disabled={isSubmitting}>
+        <Button type="submit" className="w-full animate-pulse-glow" disabled={isSubmitting}>
           {isSubmitting ? "Sending..." : "Send Message"}
         </Button>
       </form>

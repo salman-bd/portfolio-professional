@@ -10,8 +10,8 @@ export default function SkillsPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md:py-24">
+          <div className="container max-7xl mx-auto px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="section-heading">Skills & Expertise</h1>
               <p className="mt-6 text-xl text-muted-foreground">
@@ -22,8 +22,8 @@ export default function SkillsPage() {
         </section>
 
         {/* Professional Skills Section */}
-        <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-muted/30 py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <BarChart className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Professional Skills</h2>
@@ -94,8 +94,8 @@ export default function SkillsPage() {
         </section>
 
         {/* Special Skills Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md:py-24">
+          <div className="container max-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <CheckCircle2 className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Special Skills</h2>
@@ -246,8 +246,8 @@ export default function SkillsPage() {
         </section>
 
         {/* Technical Skills Section */}
-        <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-muted/30 py-20 md:py-24">
+          <div className="container max-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <Database className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Technical Skills</h2>

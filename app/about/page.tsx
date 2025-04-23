@@ -9,8 +9,8 @@ export default function AboutPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md-24">
+          <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="section-heading">About Me</h1>
               <p className="mt-6 text-xl text-muted-foreground">
@@ -24,7 +24,7 @@ export default function AboutPage() {
 
         {/* Bio Section */}
         <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+          <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <Card className="card-hover">
                 <CardHeader>
@@ -116,7 +116,7 @@ export default function AboutPage() {
 
         {/* Experience & Education Section */}
         <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+          <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <div>
                 <div className="mb-8 flex items-center">
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 <div className="space-y-6">
                   <Card className="card-hover">
                     <CardHeader>
-                      <CardTitle>Accounts In-Charge {"{Hajj & Umrah}"}</CardTitle>
+                      <CardTitle>Accounts In-Charge (Hajj & Umrah Section)</CardTitle>
                       <CardDescription>Latif Travels Pvt. Ltd. | Oct 2022 - Present</CardDescription>
                     </CardHeader>
                     <CardContent>

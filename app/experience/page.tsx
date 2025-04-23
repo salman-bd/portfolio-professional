@@ -9,8 +9,8 @@ export default function ExperiencePage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="section-heading">Experience & Training</h1>
               <p className="mt-6 text-xl text-muted-foreground">
@@ -21,8 +21,8 @@ export default function ExperiencePage() {
         </section>
 
         {/* Experience Section */}
-        <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-muted/30 py-20 md-py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <Briefcase className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Professional Experience</h2>
@@ -32,7 +32,7 @@ export default function ExperiencePage() {
                 <CardHeader>
                   <div className="flex flex-col justify-between space-y-1 sm:flex-row sm:items-center sm:space-y-0">
                     <div>
-                      <CardTitle>Accounts In-Charge {"{Hajj & Umrah}"}</CardTitle>
+                      <CardTitle>Accounts In-Charge (Hajj & Umrah Section)</CardTitle>
                       <CardDescription>Latif Travels Pvt. Ltd.</CardDescription>
                     </div>
                     <div className="rounded-full bg-primary/10 px-3 py-1 text-sm text-primary">Oct 2022 - Present</div>
@@ -99,8 +99,8 @@ export default function ExperiencePage() {
         </section>
 
         {/* Training Section */}
-        <section className="bg-background py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-background py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <GraduationCap className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Training & Certifications</h2>
@@ -181,8 +181,8 @@ export default function ExperiencePage() {
         </section>
 
         {/* Achievements Section */}
-        <section className="bg-muted/30 py-20">
-          <div className="container mx-auto px-4 md:px-6">
+        <section className="bg-muted/30 py-20 md:py-24">
+          <div className="container max-w-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 flex items-center">
               <Award className="mr-2 h-6 w-6 text-primary" />
               <h2 className="text-3xl font-bold">Achievements & Activities</h2>
