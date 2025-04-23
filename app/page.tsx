@@ -18,7 +18,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col  bg-black">
+    <div className="flex min-h-screen flex-col">
       <Navbar />
       <main className="flex-1 w-full">
         {/* Hero Section */}
@@ -109,7 +109,7 @@ export default function Home() {
         </section>
 
         {/* Services Section */}
-        <section className="bg-muted/10 py-20 md:py-24">
+        <section className="bg-stone-950 py-20 md:py-24">
           <div className="container  max-w-7xl mx-auto px-4 md:px-6">
             <div className="mb-12 text-center animate-slide-up">
               <h2 className="section-heading">What I Do</h2>

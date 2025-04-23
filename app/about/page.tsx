@@ -23,7 +23,7 @@ export default function AboutPage() {
         </section>
 
         {/* Bio Section */}
-        <section className="bg-muted/30 py-20">
+        <section className="bg-background py-20">
           <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <Card className="card-hover">
@@ -115,7 +115,7 @@ export default function AboutPage() {
         </section>
 
         {/* Experience & Education Section */}
-        <section className="bg-background py-20">
+        <section className="bg-muted/40 py-20">
           <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <div>
