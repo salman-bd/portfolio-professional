@@ -52,28 +52,28 @@ export function Footer() {
               <div className="flex space-x-4 pt-2">
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-rose-900 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-5 w-5" />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-rose-900 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-rose-900  flex items-center justify-center hover:bg-primary/20 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-700  flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter className="h-5 w-5" />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-rose-900 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-5 w-5" />
