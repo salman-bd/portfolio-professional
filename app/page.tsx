@@ -50,8 +50,8 @@ export default function Home() {
                     <div className="relative w-full p-4 aspect-square bg-gradient-to-b from-gray-800 to-black rounded-xl overflow-hidden flex items-center justify-center">
                       <div className="relative w-full h-full">
                         <Image
-                          src="/shaon.jpg"
-                          alt="Ariful Islam"
+                          src="/man-smile.jpg"
+                          alt="profile-photo"
                           fill
                           className="object-cover object-center rounded-xl shadow-lg"
                           priority
